@@ -1,0 +1,3 @@
+rem ignore installations from https://github.com/weuritz8u/dev-envirment
+
+npm install papaparse
