@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+dev_envirment_dara/
+dev_start.cmd
+dev_install.cmd
+dev_open.cmd
+nextjs_env_creator.lua
