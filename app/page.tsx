@@ -6,7 +6,8 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1 className="text-8xl font-bold mb-4">Shadowdara</h1>
         <p>My Webpage hostet on Vercel</p>
-        <p><a href="https://shadowdara.github.io">Main Page here on Github Pages</a></p>
+        <p><a href="https://shadowdara.github.io">Main Page here on Github Pages →</a></p>
+        <p><a href="https://github.com/ShadowDara/Shadowdaras_webpage#features">Features for this page →</a></p>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
@@ -22,7 +23,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Source Code
+          Source Code →
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -37,7 +38,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          My Projectlist
+          My Projectlist →
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
