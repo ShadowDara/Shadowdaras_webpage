@@ -1,0 +1,8 @@
+TODO
+
+- API
+    - check config.ini file
+    - get Repo Data from the users
+    - https://repo-database-creator.vercel.app/api/repos_raw?description=false
+    - compare the data from the website with the project_list.csv table
+    - Display the new project list
