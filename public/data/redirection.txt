@@ -1,5 +1,23 @@
 Redirecting ...
     
-You should not see this!
+You should not see this Page!
+
+=====
 
 This Page is only for Redirecting!
+
+=====
+
+Available Redirects are:
+
+?r=home -> https://shadowdara.github.io
+?r=github -> https:/github.com//shadowdara
+?r=github2 -> https:/github.com//weuritz8u
+
+======
+
+add the part with the ? after the link!
+
+=====
+
+This lowkey my own redirecting linkfile lol
