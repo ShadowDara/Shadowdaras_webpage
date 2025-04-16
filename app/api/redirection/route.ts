@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-interface Repository {
+interface Redirecting {
   id: number;
   html_url: string;
   redirect: string | null;
