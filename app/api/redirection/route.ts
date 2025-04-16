@@ -3,15 +3,14 @@ import { readFile } from "fs/promises";
 import path from "path";
 
 const homepage = "https://shadowdara.vercel.app"
+
 const filePath = path.join(process.cwd(), "public/data/redirection.txt");
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const user = searchParams.get("user") || "weuritz8u";
   const redirect = searchParams.get("redirect") || (searchParams.has("redirect") ? null : searchParams.get("r")) || "yes";
 
   if (redirect !== "no") {
-    let do_redirect = true;
     let redirectUrl: URL | null = null;
 
     if (redirect === "home") {
@@ -26,11 +25,8 @@ export async function GET(request: Request) {
     else if (redirect === "yes") {
       redirectUrl = new URL(homepage, request.url);
     }
-    else {
-      do_redirect = false;
-    }
 
-    if (do_redirect && redirectUrl) {
+    if (redirectUrl) {
       return NextResponse.redirect(redirectUrl.toString(), 302);
     }
   }
