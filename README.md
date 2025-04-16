@@ -12,6 +12,8 @@ This is the source code for my own nextjs based Webpage / Server!
 
 ### Project List
 
+https://shadowdara.vercel.app/api/data/projects
+
 ### Redirection
 
 https://shadowdara.vercel.app/api/redirection?r=no
