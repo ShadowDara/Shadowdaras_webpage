@@ -3,7 +3,7 @@ import { readFile } from "fs/promises";
 import path from "path";
 
 const homepage = "https://shadowdara.vercel.app"
-const filePath_html = path.join(process.cwd(), "public/data/redirection.txt");
+const filePath = path.join(process.cwd(), "public/data/redirection.txt");
 
 function wait(seconds: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, seconds * 1000));
@@ -27,6 +27,9 @@ export async function GET(request: Request) {
     else if (redirect === "github2") {
       redirectUrl = new URL("https://github.com/weuritz8u", request.url);
     }
+    else if (redirect === "back") {
+      redirectUrl = new URL(homepage, request.url);
+    }
     else {
       do_redirect = false;
     }
@@ -36,8 +39,8 @@ export async function GET(request: Request) {
     }
   }
 
-  const text_html = await readFile(filePath_html, "utf-8");
-  return new NextResponse(text_html, {
+  const text = await readFile(filePath, "utf-8");
+  return new NextResponse(text, {
       status: 200,
       headers: { "Content-Type": "text/plain" },
   });
