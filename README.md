@@ -2,9 +2,17 @@
 
 # Shadowdaras Webpage
 
+*This is not finished!*
+
 ## Infos
 
+This is the source code for my own nextjs based Webpage / Server!
+
 ## Features
+
+### Project List
+
+### Redirection
 
 ---
 
