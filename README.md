@@ -1,4 +1,24 @@
-<!-- written by xShadowdara -->
+<!-- written by Shadowdara -->
+
+# Shadowdaras Webpage
+
+*This is not finished!*
+
+## Infos
+
+This is the source code for my own nextjs based Webpage / Server!
+
+## Features
+
+### Project List
+
+https://shadowdara.vercel.app/api/data/projects
+
+### Redirection
+
+https://shadowdara.vercel.app/api/redirection?r=no
+
+---
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
