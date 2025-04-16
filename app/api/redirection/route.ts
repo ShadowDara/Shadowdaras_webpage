@@ -22,6 +22,7 @@ export async function GET(request: Request) {
     else if (redirect === "github2") {
       redirectUrl = new URL("https://github.com/weuritz8u", request.url);
     }
+
     else if (redirect === "yes") {
       redirectUrl = new URL(homepage, request.url);
     }
